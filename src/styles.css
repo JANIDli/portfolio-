@@ -113,4 +113,41 @@
     .text{
         text-align: center;
     }
+    .about-container{
+        display: block;
+    }
+    .about-img img{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .about-text{
+        text-align: center;
+    }
+}
+
+/* ABOUT SECTION */
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.about-text{
+    background-color: #1b242d;
+    padding:70px;
+    color: aliceblue;
+    outline: 2px solo;
+}
+.about-text h2{
+    padding-bottom: 60px;
+    color: #1CB96F
 }
